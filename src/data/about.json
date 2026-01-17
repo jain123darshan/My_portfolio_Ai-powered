@@ -1,0 +1,37 @@
+{
+  "name": "Darshan Kumar Jain",
+  "title": "Software Engineer | Java Backend & AI",
+  "bio": "I am a Software Engineer with hands-on experience in Java backend development, microservices architecture, and AI-driven applications. I have worked on building secure, scalable Spring Boot services, integrating cloud authentication systems, and optimizing system performance using caching and messaging pipelines. My AI experience includes computer vision, facial recognition, and safety-compliance systems built using Python, OpenCV, and PyTorch. I enjoy working at the intersection of backend engineering, distributed systems, and applied AI to solve real-world problems.",
+  "education": [
+    {
+      "degree": "B.Tech in Computer Science (AI Specialization)",
+      "school": "Teerthanker Mahaveer University",
+      "year": "2025"
+    },
+    {
+      "degree": "Diploma",
+      "school": "Jharkhand University of Technology",
+      "year": "2022"
+    }
+  ],
+  "skills": {
+    "languages": ["Java", "Python", "JavaScript"],
+    "frameworks": ["Spring Boot", "FastAPI", "React", "Hibernate"],
+    "tools": ["Docker", "Kubernetes", "Jenkins", "Git", "IntelliJ", "PyCharm", "DBeaver", "MySQL Server"],
+    "ai_ml": ["PyTorch", "TensorFlow", "OpenCV", "Computer Vision"]
+  },
+  "interests": [
+    "Backend Engineering",
+    "Microservices Architecture",
+    "AI & Computer Vision",
+    "Distributed Systems",
+    "Cloud Infrastructure"
+  ],
+  "location": "India",
+  "email": "darshankumarj063@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/darshan-jain-736780203",
+  "github": "https://github.com/jain123darshan",
+  "twitter": null,
+  "leetcode": "https://leetcode.com/createdarshan/",
+  "code360": "https://www.naukri.com/code360/profile/credarshan"
+}

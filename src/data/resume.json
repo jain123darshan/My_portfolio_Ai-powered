@@ -1,0 +1,110 @@
+{
+  "experience": [
+    {
+      "company": "SapidBlue Technology Pvt. Ltd.",
+      "position": "Java Backend Developer",
+      "duration": "June 2025 – November 2025",
+      "description": "Built optimized Spring Boot APIs with Redis and load balancing. Designed secure microservices integrated with AWS Cognito. Developed Kafka-based communication services for scalable messaging. Implemented RabbitMQ–Kafka pipelines for high-throughput systems. Optimized PostgreSQL and MongoDB schemas for performance. Learned CI/CD automation using Jenkins and Kubernetes.",
+      "achievements": [
+        "Built optimized Spring Boot APIs with Redis and load balancing",
+        "Designed secure microservices integrated with AWS Cognito",
+        "Developed Kafka-based communication services for scalable messaging",
+        "Implemented RabbitMQ–Kafka pipelines for high-throughput systems",
+        "Optimized PostgreSQL and MongoDB schemas for performance",
+        "Learned CI/CD automation using Jenkins and Kubernetes",
+        "Collaborated cross-functionally to resolve production issues"
+      ],
+      "technologies": ["Java", "Spring Boot", "Redis", "AWS Cognito", "Kafka", "RabbitMQ", "PostgreSQL", "MongoDB", "Jenkins", "Kubernetes", "CI/CD"]
+    },
+    {
+      "company": "Curve.ai",
+      "position": "AI Associate",
+      "duration": "March 2025 – May 2025",
+      "description": "Worked on AI-driven applications using Python. Built backend APIs using FastAPI. Strengthened JavaScript fundamentals for UI logic. Used Git and GitHub workflows for version control.",
+      "achievements": [
+        "Worked on AI-driven applications using Python",
+        "Built backend APIs using FastAPI",
+        "Strengthened JavaScript fundamentals for UI logic",
+        "Used Git and GitHub workflows for version control"
+      ],
+      "technologies": ["Python", "FastAPI", "JavaScript", "Git", "GitHub"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Accura Link – Medical Coding & Insurance System",
+      "description": "Enterprise backend project with Spring Boot microservices and AWS Cognito",
+      "technologies": ["Java", "Spring Boot", "AWS Cognito", "PostgreSQL", "MongoDB"],
+      "year": "2025"
+    },
+    {
+      "name": "AI Powered Coal Mine Safety and Shift Management",
+      "description": "AI-driven system using computer vision for safety and attendance tracking",
+      "technologies": ["Python", "OpenCV", "PyTorch", "Computer Vision"],
+      "year": "2024"
+    },
+    {
+      "name": "Weather Forecasting Web Application",
+      "description": "Responsive weather app with real-time updates and 7-day forecasts",
+      "technologies": ["JavaScript", "HTML", "CSS", "REST APIs"],
+      "year": "2024"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Problem Solving – HackerRank",
+      "issuer": "HackerRank",
+      "year": null
+    },
+    {
+      "name": "Python – HackerRank",
+      "issuer": "HackerRank",
+      "year": null
+    },
+    {
+      "name": "Java – Infosys Instep",
+      "issuer": "Infosys Instep",
+      "year": null
+    },
+    {
+      "name": "Machine Learning",
+      "issuer": null,
+      "year": null
+    },
+    {
+      "name": "Ninja Coder – Code360",
+      "issuer": "Code360",
+      "year": null
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in Computer Science (AI Specialization)",
+      "institution": "Teerthanker Mahaveer University",
+      "duration": "Aug 2022 – Jun 2025",
+      "score": "70%"
+    },
+    {
+      "degree": "Diploma",
+      "institution": "Jharkhand University of Technology",
+      "duration": "Aug 2019 – Jun 2022",
+      "score": "87%"
+    }
+  ],
+  "skills": {
+    "ai": ["PyTorch", "TensorFlow", "OpenCV"],
+    "backend": ["Java", "Spring Boot", "Hibernate"],
+    "databases": ["MySQL", "PostgreSQL", "MongoDB"],
+    "cloud_devops": ["AWS", "Docker", "Kubernetes", "Jenkins", "CI/CD"],
+    "messaging": ["Kafka", "RabbitMQ"],
+    "tools": ["IntelliJ", "PyCharm", "GitHub", "DBeaver", "MySQL Server"]
+  },
+  "achievements": [
+    "4th position in SIH Internal Hackathon (2024)",
+    "National Level Sports Player"
+  ],
+  "contact": {
+    "email": "darshankumarj063@gmail.com",
+    "phone": "+91 9142162354"
+  }
+}

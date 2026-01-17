@@ -1,0 +1,56 @@
+[
+  {
+    "id": "accura-link",
+    "title": "Accura Link – Medical Coding & Insurance System",
+    "description": "Accura Link is a secure medical coding system that extracts data from medical documents, maps ICD codes, and determines insurance outcomes. Built with Spring Boot microservices architecture, integrated with AWS Cognito for secure authentication, and optimized for high-volume chart analytics.",
+    "technologies": ["Java", "Spring Boot", "Microservices", "AWS Cognito", "PostgreSQL", "MongoDB", "React", "Python"],
+    "features": [
+      "Backend microservices using Spring Boot",
+      "AWS Cognito authentication and authorization",
+      "Dynamic API routing with API Gateway",
+      "High-performance chart analytics",
+      "Multi-database architecture (PostgreSQL & MongoDB)"
+    ],
+    "github": null,
+    "live": null,
+    "category": "Backend",
+    "year": "2025",
+    "company": "SapidBlue Technology Pvt. Ltd.",
+    "domain": "Healthcare"
+  },
+  {
+    "id": "coal-mine-ai",
+    "title": "AI Powered Coal Mine Safety and Shift Management",
+    "description": "An AI-driven system for coal mine worker safety, automated attendance, and shift management using computer vision and real-time compliance checks. Implements facial recognition-based attendance tracking and safety gear detection using OpenCV and PyTorch.",
+    "technologies": ["Python", "OpenCV", "PyTorch", "Computer Vision", "REST APIs", "HTML", "CSS", "JavaScript"],
+    "features": [
+      "Facial recognition-based attendance tracking",
+      "Safety gear detection using image processing",
+      "AI pipelines for compliance monitoring",
+      "REST APIs for system integration",
+      "Real-time compliance checks"
+    ],
+    "github": null,
+    "live": null,
+    "category": "AI & Computer Vision",
+    "year": "2024",
+    "domain": "AI & Safety Systems"
+  },
+  {
+    "id": "weather-app",
+    "title": "Weather Forecasting Web Application",
+    "description": "A responsive weather forecasting application that provides real-time weather updates and 7-day forecasts using third-party APIs. Built with HTML, CSS, and JavaScript, featuring geolocation-based forecasts and responsive design for all devices.",
+    "technologies": ["JavaScript", "HTML", "CSS", "REST APIs", "Fetch API"],
+    "features": [
+      "Real-time weather updates",
+      "7-day weather forecasts",
+      "Geolocation-based forecasts",
+      "Responsive design for all devices",
+      "Third-party API integration"
+    ],
+    "github": null,
+    "live": "https://the-weather-forecasting.netlify.app/",
+    "category": "Frontend",
+    "year": "2024"
+  }
+]
