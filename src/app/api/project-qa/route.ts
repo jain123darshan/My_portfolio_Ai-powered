@@ -2,9 +2,14 @@ import { NextRequest, NextResponse } from "next/server";
 import OpenAI from "openai";
 import projectsData from "@/data/projects.json";
 
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
-});
+// Initialize OpenAI client only when API key is available
+let openai: OpenAI | null = null;
+
+if (process.env.OPENAI_API_KEY) {
+  openai = new OpenAI({
+    apiKey: process.env.OPENAI_API_KEY,
+  });
+}
 
 // System prompt for project-specific Q&A
 const SYSTEM_PROMPT = `You are an AI assistant specialized in answering technical questions about specific software projects. Your role is to explain projects like a senior engineer would—focusing on architecture, technical decisions, challenges, and implementation details.
@@ -28,7 +33,7 @@ When answering:
 
 export async function POST(request: NextRequest) {
   try {
-    if (!process.env.OPENAI_API_KEY) {
+    if (!openai) {
       return NextResponse.json(
         { error: "OpenAI API key not configured" },
         { status: 500 }

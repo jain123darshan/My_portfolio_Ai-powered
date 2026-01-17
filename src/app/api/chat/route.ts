@@ -4,9 +4,14 @@ import aboutData from "@/data/about.json";
 import projectsData from "@/data/projects.json";
 import resumeData from "@/data/resume.json";
 
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
-});
+// Initialize OpenAI client only when API key is available
+let openai: OpenAI | null = null;
+
+if (process.env.OPENAI_API_KEY) {
+  openai = new OpenAI({
+    apiKey: process.env.OPENAI_API_KEY,
+  });
+}
 
 // System prompt that grounds the AI in portfolio data only
 const SYSTEM_PROMPT = `You are an AI assistant representing a portfolio website. Your role is to answer questions about the portfolio owner's background, projects, skills, and experience based ONLY on the provided portfolio data.
@@ -25,7 +30,7 @@ Remember: You are bound to this data. Do not make up information or use external
 
 export async function POST(request: NextRequest) {
   try {
-    if (!process.env.OPENAI_API_KEY) {
+    if (!openai) {
       return NextResponse.json(
         { error: "OpenAI API key not configured" },
         { status: 500 }

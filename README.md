@@ -16,6 +16,13 @@ Welcome to the source code for my personal portfolio. This project is a modern, 
 - **Backend**: Next.js API Routes, OpenAI API
 - **Deployment**: Vercel
 
+## 🌐 Live Deployment
+
+The portfolio is live and deployed on Vercel:
+
+- **Production URL:** [https://my-portfolio-ai-powered.vercel.app](https://my-portfolio-ai-powered.vercel.app)
+- **Direct URL:** [https://my-portfolio-ai-powered-hbaa53jda-jain123darshans-projects.vercel.app](https://my-portfolio-ai-powered-hbaa53jda-jain123darshans-projects.vercel.app)
+
 ## 🛠️ Getting Started
 
 1. **Clone the repository:**
