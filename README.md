@@ -2,7 +2,7 @@
 
 Welcome to the source code for my personal portfolio. This project is a modern, responsive web application built with **Next.js 14** and **TypeScript**, designed to showcase my work as a Software Engineer specializing in **Java Backend** and **Artificial Intelligence**.
 
-## ✨ Key Features
+ ✨ Key Features
 
 - **AI Chat Widget:** A custom assistant powered by OpenAI that answers questions about my background.
 - **Modern UI:** Styled with Tailwind CSS and Framer Motion for smooth interactions.
